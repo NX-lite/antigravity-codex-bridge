@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "codex-cua": {
+      "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "args": [
+        "/Users/<YOUR_USERNAME>/.gemini/config/codex-cua-mcp.mjs"
+      ],
+      "env": {
+        "TMPDIR": "/tmp"
+      }
+    },
+    "codex-sky": {
+      "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "args": [
+        "/Users/<YOUR_USERNAME>/.gemini/config/codex-sky-mcp.mjs"
+      ],
+      "env": {
+        "TMPDIR": "/tmp"
+      }
+    },
+    "codex-artifact-templates": {
+      "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "args": [
+        "/Users/<YOUR_USERNAME>/.gemini/config/codex-templates-mcp.mjs"
+      ],
+      "env": {
+        "TMPDIR": "/tmp"
+      }
+    },
+    "codex-data": {
+      "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node",
+      "args": [
+        "/Users/<YOUR_USERNAME>/.gemini/config/codex-data-mcp.mjs"
+      ],
+      "env": {
+        "TMPDIR": "/tmp"
+      }
+    }
+  }
+}

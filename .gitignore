@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+mcp_config.json
+.agents/skills/control-chrome/
+.agents/skills/control-in-app-browser/
+.agents/skills/computer-use/
+.agents/skills/computer-history/
+.agents/skills/record-and-replay/
+.agents/skills/codex-chrome-control/references/
+.agents/skills/codex-computer-use/references/
