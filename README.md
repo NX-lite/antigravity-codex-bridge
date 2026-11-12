@@ -116,4 +116,4 @@ This project is an independent open-source MCP bridge and is **not** affiliated 
 
 ## License
 
-[GPL-3.0](./LICENSE)
+[AGPL-3.0](./LICENSE)
